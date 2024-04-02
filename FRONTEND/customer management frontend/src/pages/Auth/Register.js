@@ -38,6 +38,7 @@ const Register = () => {
   };
 
   return (
+    <div className="registerlog">
     <Layout title="Register - Hesh App">
       <div className="form-container ">
         <form onSubmit={handleSubmit}>
@@ -115,6 +116,7 @@ const Register = () => {
         </form>
       </div>
     </Layout>
+    </div>
   );
 };
 

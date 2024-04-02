@@ -12,6 +12,7 @@
     padding: 10px 20px; /* Adjust button padding */
     font-size: 20px; /* Adjust button font size */
     font-weight: bold;
+    font-family: Tahoma, sans-serif;
     border-radius: 15px;
     background-color: #ffffff42; /* Default button background color */
     color: rgb(0, 0, 0); /* Default button text color */
@@ -24,5 +25,10 @@
 
   .Home{
     background-image: url('C:/Users/hesha/Documents/ec/FRONTEND/src/stowell-banner-5-1536x1006.webp');
+  }
+
+  .htitle{
+    font-weight: 900;
+    text-align: center;
   }
   

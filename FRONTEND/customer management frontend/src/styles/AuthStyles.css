@@ -1,24 +1,29 @@
 /* ===================================
 ========= register page  */
+
+.registerlog{
+  background-image: url('C:/Users/hesha/Documents/ec/FRONTEND/src/stowell-banner-5-1536x1006.webp');
+}
+
+
 .form-container {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 70vh;
   flex-direction: column;
-  background-image: url('C:/Users/hesha/Documents/ec/FRONTEND/src/stowell-banner-5-1536x1006.webp');
-  background-size: cover; /* Adjust as needed */
+background-size: cover; /* Adjust as needed */
   background-repeat: no-repeat;
   background-position: center;
   margin: 0; 
   padding: 0;
- 
+
   
 }
 
 .form-container form {
   border-radius: 15px;
-  background-color: #ffffff6f;
+  background-color:#ffffff42;
   padding: 100px;
   padding-left: 80px;
   padding-right: 80px;

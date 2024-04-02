@@ -9,7 +9,7 @@ const HomePage = () => {
    <div className="Home">
     <Layout title={"Best offers "}>
      
-      <h1>HomePage</h1>
+      <h1 className="htitle">HomePage</h1>
 
       {/* Buttons in the first row */}
       <div className="button-container1">
