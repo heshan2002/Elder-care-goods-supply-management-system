@@ -6,9 +6,9 @@ import ShopCategory from './Pages/ShopCategory';
 import Products from './Pages/Products';
 import Cart from './Pages/Cart';
 import LoginSignup from './Pages/LoginSignup';
-import mobilityItems_banner from './Component/Assets/banner_mobilityItems.jpg';
-import mesurementMachines_banner from './Component/Assets/banner_mesurementMachines.jpg';
-import dryFoods_banner from './Component/Assets/banner_dryFoods.jpg';
+import mobilityItems_banner from './Component/Assets/banner_mobilityItems.png';
+import mesurementMachines_banner from './Component/Assets/banner_mesurementMachines.png';
+import dryFoods_banner from './Component/Assets/banner_dryFoods.png';
 
 function App() {
   return (
@@ -18,9 +18,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shop/>}/>
-        <Route path='/mobilityItems' element={<ShopCategory banner={mobilityItems_banner} category="Mobility Items"/>}/>
-        <Route path='/mesurementMachines' element={<ShopCategory banner={mesurementMachines_banner} category="Mesurement Machines"/>}/>
-        <Route path='/dryFoods' element={<ShopCategory banner={dryFoods_banner} category="Dry Food"/>}/>
+        <Route path='/mobilityItems' element={<ShopCategory banner={mobilityItems_banner} category="Mobility items"/>}/>
+        <Route path='/mesurementMachines' element={<ShopCategory banner={mesurementMachines_banner} category="Measurement Machines"/>}/>
+        <Route path='/dryFoods' element={<ShopCategory banner={dryFoods_banner} category="Dry food"/>}/>
           
         <Route path="/Products" element={<Products/>}>
           <Route path=':productId' element={<Products/>}/>
