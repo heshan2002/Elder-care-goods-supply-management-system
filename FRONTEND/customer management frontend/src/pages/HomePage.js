@@ -6,7 +6,9 @@ import "../styles/Home.css";
 const HomePage = () => {
   const [auth, setAuth] = useAuth();
   return (
+   <div className="Home">
     <Layout title={"Best offers "}>
+     
       <h1>HomePage</h1>
 
       {/* Buttons in the first row */}
@@ -24,8 +26,9 @@ const HomePage = () => {
       </div>
 
    
-
+      
     </Layout>
+    </div>
   );
 };
 

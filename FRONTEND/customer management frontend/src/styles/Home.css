@@ -6,16 +6,23 @@
   }
   
   .button-container1 button {
-    margin: 5px; /* Adjust spacing between buttons */
+    width: 300px;
+    height: 260px;
+    margin: 20px; /* Adjust spacing between buttons */
     padding: 10px 20px; /* Adjust button padding */
-    font-size: 16px; /* Adjust button font size */
+    font-size: 20px; /* Adjust button font size */
+    font-weight: bold;
     border-radius: 15px;
-    background-color: #ffffff6f; /* Default button background color */
+    background-color: #ffffff42; /* Default button background color */
     color: rgb(0, 0, 0); /* Default button text color */
     cursor: pointer;
   }
   
   .button-container1 button:hover {
-    background-color: #0056b3; /* Button background color on hover */
+    background-color: #00000059; /* Button background color on hover */
+  }
+
+  .Home{
+    background-image: url('C:/Users/hesha/Documents/ec/FRONTEND/src/stowell-banner-5-1536x1006.webp');
   }
   
