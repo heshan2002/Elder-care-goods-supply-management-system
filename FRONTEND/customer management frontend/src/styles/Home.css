@@ -1,0 +1,21 @@
+/* AuthStyles.css */
+
+.button-container1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container1 button {
+    margin: 5px; /* Adjust spacing between buttons */
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 16px; /* Adjust button font size */
+    border-radius: 15px;
+    background-color: #ffffff6f; /* Default button background color */
+    color: rgb(0, 0, 0); /* Default button text color */
+    cursor: pointer;
+  }
+  
+  .button-container1 button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
