@@ -2,12 +2,13 @@ import React from "react";
 import Layout from "./../../components/Layout/Layout";
 import AdminMenu from "./../../components/Layout/AdminMenu";
 import { useAuth } from "../../context/auth";
+import "../../styles/Adash.css";
 
 const CreateCategory = () => {
   const [auth] = useAuth();
   return (
   
-  
+  <div className="aDash">
     <Layout title={"Dashboard -Admin Profile "}>
       <div className="container-fluid m-3 p-3">
         <div className="row">
@@ -15,7 +16,7 @@ const CreateCategory = () => {
             <AdminMenu />
           </div>
           <div className="col-md-9">
-            <h1>Admin Profile</h1>
+            <h1 className="h1">Admin Profile</h1>
             <div className="card w-75 p-3">
               <h3> Admin Name : {auth?.user?.name}</h3>
               <h3> Admin Email : {auth?.user?.email}</h3>
@@ -25,6 +26,7 @@ const CreateCategory = () => {
         </div>
       </div>
     </Layout>
+    </div>
   );
 };
 

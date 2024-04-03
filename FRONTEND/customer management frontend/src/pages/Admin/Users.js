@@ -85,6 +85,7 @@ const Users = () => {
   }, [selectedUser]);
 
   return (
+    <div className="user">
     <Layout title={"Dashboard - All Users"}>
       <div className="container-fluid m-3 p-3">
         <div className="row">
@@ -92,7 +93,7 @@ const Users = () => {
             <AdminMenu />
           </div>
           <div className="col-md-9">
-            <h1>All Users</h1>
+            <h1 className="h1">All Customers</h1>
             <table className="w3-table w3-striped">
               <thead>
                 <tr>
@@ -160,6 +161,7 @@ const Users = () => {
         </div>
       </div>
     </Layout>
+    </div>
   );
 };
 

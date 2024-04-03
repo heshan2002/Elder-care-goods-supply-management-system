@@ -2,9 +2,11 @@ import React from "react";
 import AdminMenu from "../../components/Layout/AdminMenu";
 import Layout from "./../../components/Layout/Layout";
 import { useAuth } from "../../context/auth";
+import "../../styles/Adash.css";
 const AdminDashboard = () => {
   const [auth] = useAuth();
   return (
+    <div className="aDash">
     <Layout>
       <div className="container-fluid m-3 p-3">
         <div className="row">
@@ -21,6 +23,7 @@ const AdminDashboard = () => {
         </div>
       </div>
     </Layout>
+    </div>
   );
 };
 
