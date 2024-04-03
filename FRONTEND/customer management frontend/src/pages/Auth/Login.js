@@ -83,7 +83,7 @@ const Login = () => {
             LOGIN
           </button><br /><br/>
 
-<p1>OR Sign up with</p1><br /><br />
+<p1 className="sw1">OR Sign up with</p1><br /><br />
 <a href="https://www.google.com">
   {/* Google logo or icon here */}
   <img src="/images/googlelogo_clr_74x24px.svg" alt="Google Logo" />
@@ -94,7 +94,7 @@ const Login = () => {
         </form>
 
         <div className="signup-link">
-            <p>If you don't have an account, please sign up here: <Link to="/Register" className="btn btn-secondary">
+            <p className="sw2">If you don't have an account, please sign up here: <Link to="/Register" className="btn btn-secondary">
               REGISTER 
             </Link></p>
            
