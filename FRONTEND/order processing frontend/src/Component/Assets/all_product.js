@@ -38,7 +38,7 @@ import p36_img from "./product_36.jpg";
 let all_product = [
     {
         id:1,
-        name:"",
+        name:"Adjustable Height Walking Cane",
         category:"Mobility items",
         image:p1_img,
         new_price: 5550.00,
@@ -46,7 +46,7 @@ let all_product = [
     },
     {
         id:2,
-        name:"",
+        name:"Bed Rail Assist Handle",
         category:"Mobility items",
         image:p2_img,
         new_price: 5550.00,
@@ -54,7 +54,7 @@ let all_product = [
     },
     {
         id:3,
-        name:"",
+        name:"Bedside Commode Chair",
         category:"Mobility items",
         image:p3_img,
         new_price: 5550.00,
@@ -62,7 +62,7 @@ let all_product = [
     },
     {
         id:4,
-        name:"",
+        name:"Folding Mobility Scooter",
         category:"Mobility items",
         image:p4_img,
         new_price: 5550.00,
@@ -70,7 +70,7 @@ let all_product = [
     },
     {
         id:5,
-        name:"",
+        name:"Handheld Shower Head with Long Hose",
         category:"Mobility items",
         image:p5_img,
         new_price: 5550.00,
@@ -78,7 +78,7 @@ let all_product = [
     },
     {
         id:6,
-        name:"",
+        name:"Lightweight Transport Wheelchair",
         category:"Mobility items",
         image:p6_img,
         new_price: 5550.00,
@@ -86,7 +86,7 @@ let all_product = [
     },
     {
         id:7,
-        name:"",
+        name:"Motorized Lift Chair Recliner",
         category:"Mobility items",
         image:p7_img,
         new_price: 5550.00,
@@ -94,7 +94,7 @@ let all_product = [
     },
     {
         id:8,
-        name:"",
+        name:"Portable Folding Travel Walker",
         category:"Mobility items",
         image:p8_img,
         new_price: 5550.00,
@@ -102,7 +102,7 @@ let all_product = [
     },
     {
         id:9,
-        name:"",
+        name:"Reacher Grabber Tool",
         category:"Mobility items",
         image:p9_img,
         new_price: 5550.00,
@@ -110,7 +110,7 @@ let all_product = [
     },
     {
         id:10,
-        name:"",
+        name:"Rollator Walker with Seat and Basket",
         category:"Mobility items",
         image:p10_img,
         new_price: 5550.00,
@@ -118,7 +118,7 @@ let all_product = [
     },
     {
         id:11,
-        name:"",
+        name:"Shower Chair with Backrest",
         category:"Mobility items",
         image:p11_img,
         new_price: 5550.00,
@@ -126,7 +126,7 @@ let all_product = [
     },
     {
         id:12,
-        name:"",
+        name:"Supportive Gel Cushions for Chairs",
         category:"Mobility items",
         image:p12_img,
         new_price: 5550.00,
@@ -134,7 +134,7 @@ let all_product = [
     },
     {
         id:13,
-        name:"",
+        name:"Crackers (Whole Wheat or Low Sodium Varieties)",
         category:"Dry food",
         image:p13_img,
         new_price: 5550.00,
@@ -142,7 +142,7 @@ let all_product = [
     },
     {
         id:14,
-        name:"",
+        name:"Instant Coffee Packets (Decaf Options)",
         category:"Dry food",
         image:p14_img,
         new_price: 5550.00,
@@ -150,7 +150,7 @@ let all_product = [
     },
     {
         id:15,
-        name:"",
+        name:"Rice Cakes (Plain or Flavored)",
         category:"Dry food",
         image:p15_img,
         new_price: 5550.00,
@@ -158,7 +158,7 @@ let all_product = [
     },
     {
         id:16,
-        name:"",
+        name:"Whole Grain Breakfast Cereal",
         category:"Dry food",
         image:p16_img,
         new_price: 5550.00,
@@ -166,7 +166,7 @@ let all_product = [
     },
     {
         id:17,
-        name:"",
+        name:"Whole Grain Pasta (e.g., Whole Wheat, Brown Rice)",
         category:"Dry food",
         image:p17_img,
         new_price: 5550.00,
@@ -174,7 +174,7 @@ let all_product = [
     },
     {
         id:18,
-        name:"",
+        name:"Instant Oatmeal Packets",
         category:"Dry food",
         image:p18_img,
         new_price: 5550.00,
@@ -182,7 +182,7 @@ let all_product = [
     },
     {
         id:19,
-        name:"",
+        name:"Low-Sodium Seasoning Blends (e.g., Mrs. Dash)",
         category:"Dry food",
         image:p19_img,
         new_price: 5550.00,
@@ -190,7 +190,7 @@ let all_product = [
     },
     {
         id:20,
-        name:"",
+        name:"Low-Sugar Granola Bars",
         category:"Dry food",
         image:p20_img,
         new_price: 5550.00,
@@ -198,7 +198,7 @@ let all_product = [
     },
     {
         id:21,
-        name:"",
+        name:"Non-Dairy Milk Alternatives (e.g., Almond Milk, Soy Milk)",
         category:"Dry food",
         image:p21_img,
         new_price: 5550.00,
@@ -206,7 +206,7 @@ let all_product = [
     },
     {
         id:22,
-        name:"",
+        name:"Nutritional Drinks (e.g., Ensure, Boost)",
         category:"Dry food",
         image:p22_img,
         new_price: 5550.00,
@@ -214,7 +214,7 @@ let all_product = [
     },
     {
         id:23,
-        name:"",
+        name:"Peanut Butter (Smooth and Crunchy Varieties)",
         category:"Dry food",
         image:p23_img,
         new_price: 5550.00,
@@ -222,7 +222,7 @@ let all_product = [
     },
     {
         id:24,
-        name:"",
+        name:"Canned Soup (Low Sodium Options)",
         category:"Dry food",
         image:p24_img,
         new_price: 5550.00,
@@ -230,7 +230,7 @@ let all_product = [
     },
     {
         id:25,
-        name:"",
+        name:"Blood Pressure Cuff for Wrist Measurements",
         category:"Measurement Machines",
         image:p25_img,
         new_price: 5550.00,
@@ -238,7 +238,7 @@ let all_product = [
     },
     {
         id:26,
-        name:"",
+        name:"Body Fat Scale with BMI Calculation",
         category:"Measurement Machines",
         image:p26_img,
         new_price: 5550.00,
@@ -246,7 +246,7 @@ let all_product = [
     },
     {
         id:27,
-        name:"",
+        name:"Digital Bathroom Scale with Large Display",
         category:"Measurement Machines",
         image:p27_img,
         new_price: 5550.00,
@@ -254,7 +254,7 @@ let all_product = [
     },
     {
         id:28,
-        name:"",
+        name:"Digital Blood Pressure Monitor",
         category:"Measurement Machines",
         image:p28_img,
         new_price: 5550.00,
@@ -262,7 +262,7 @@ let all_product = [
     },
     {
         id:29,
-        name:"",
+        name:"Electronic Medication Reminder System",
         category:"Measurement Machines",
         image:p29_img,
         new_price: 5550.00,
@@ -270,7 +270,7 @@ let all_product = [
     },
     {
         id:30,
-        name:"",
+        name:"Electronic Peak Flow Meter for Lung Function",
         category:"Measurement Machines",
         image:p30_img,
         new_price: 5550.00,
@@ -279,7 +279,7 @@ let all_product = [
 
     {
         id:31,
-        name:"",
+        name:"Electronic Pill Dispenser with Alarms",
         category:"Measurement Machines",
         image:p31_img,
         new_price: 5550.00,
@@ -287,7 +287,7 @@ let all_product = [
     },
     {
         id:32,
-        name:"",
+        name:"Portable Oxygen Concentrator",
         category:"Measurement Machines",
         image:p32_img,
         new_price: 5550.00,
@@ -295,7 +295,7 @@ let all_product = [
     },
     {
         id:33,
-        name:"",
+        name:"Portable ECG Monitor",
         category:"Measurement Machines",
         image:p33_img,
         new_price: 5550.00,
@@ -303,7 +303,7 @@ let all_product = [
     },
     {
         id:34,
-        name:"",
+        name:"Glucose Monitoring System",
         category:"Measurement Machines",
         image:p34_img,
         new_price: 5550.00,
@@ -311,7 +311,7 @@ let all_product = [
     },
     {
         id:35,
-        name:"",
+        name:"Pulse Oximeter for Oxygen Saturation Monitoring",
         category:"Measurement Machines",
         image:p35_img,
         new_price: 5550.00,
@@ -319,7 +319,7 @@ let all_product = [
     },
     {
         id:36,
-        name:"",
+        name:"Talking Blood Glucose Meter with Large Display",
         category:"Measurement Machines",
         image:p36_img,
         new_price: 5550.00,

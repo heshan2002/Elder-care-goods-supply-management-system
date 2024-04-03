@@ -28,6 +28,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
+    margin-left: 20px;
 }
 .shopcategory-products img{
     width: 90%;

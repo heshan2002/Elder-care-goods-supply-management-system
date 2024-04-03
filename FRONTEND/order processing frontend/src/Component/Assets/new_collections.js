@@ -6,28 +6,28 @@ import p4_img from "./product_4.jpg";
 let new_collection = [
     {
         id:1,
-        name:"xxx",
+        name:"Adjustable Height Walking Cane",
         image:p1_img,
         new_price: 5550.00,
         old_price: 6580.00,
     },
     {
         id:2,
-        name:"xxx",
+        name:"Bed Rail Assist Handle",
         image:p2_img,
         new_price: 5550.00,
         old_price: 6580.00,
     },
     {
         id:3,
-        name:"xxx",
+        name:"Bedside Commode Chair",
         image:p3_img,
         new_price: 5550.00,
         old_price: 6580.00,
     },
     {
         id:4,
-        name:"xxx",
+        name:"Folding Mobility Scooter",
         image:p4_img,
         new_price: 5550.00,
         old_price: 6580.00,
