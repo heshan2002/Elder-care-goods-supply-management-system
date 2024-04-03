@@ -6,28 +6,25 @@ import "../styles/Home.css";
 const HomePage = () => {
   const [auth, setAuth] = useAuth();
   return (
-   <div className="Home">
-    <Layout title={"Best offers "}>
-     
-      <h1 className="htitle">HomePage</h1>
+    <div className="Home">
 
-      {/* Buttons in the first row */}
-      <div className="button-container1">
-        <button>PRODUCTS</button>
-        <button>CART</button>
-        <button>DONATIONS</button>
-      </div>
+      <Layout title={"Best offers "}>
+        <h1 className="htitle">HomePage</h1>
+
+        {/* Buttons in the first row */}
+        <div className="button-container1">
+          <button>PRODUCTS</button>
+          <button>CART</button>
+          <button>DONATIONS</button>
+        </div>
 
         {/* Buttons in the second row */}
         <div className="button-container1">
-        <button>CARETAKERS</button>
-        <button>PAYMENT HISTORY</button>
-        <button>OFFERS</button>
-      </div>
-
-   
-      
-    </Layout>
+          <button>CARETAKERS</button>
+          <button>PAYMENT HISTORY</button>
+          <button>OFFERS</button>
+        </div>
+      </Layout>
     </div>
   );
 };

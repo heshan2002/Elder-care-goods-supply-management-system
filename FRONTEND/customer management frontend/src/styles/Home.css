@@ -21,16 +21,16 @@
   
   .button-container1 button:hover {
     background-color: #00000059; /* Button background color on hover */
+    
   }
 
-  .Home{
-    background-image: url('C:/Users/hesha/Documents/ec/FRONTEND/src/stowell-banner-5-1536x1006.webp');
-  }
+  
 
   .htitle{
     font-weight: 900;
     text-align: center;
     color: black;
   }
+
 
   
