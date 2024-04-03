@@ -6,7 +6,7 @@
     height: 90vh;
 }
 .new-collections h1{
-    color: #194486;
+    color: #002F67;
     font-size: 50px;
     font-weight: 600;
 }
@@ -15,6 +15,7 @@
     margin-top: 50px;
     display: flex;
     gap: 30px;
+    margin-left: 50px;
 }
 
 .new-collections-item img {
