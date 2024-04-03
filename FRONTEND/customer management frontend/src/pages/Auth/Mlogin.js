@@ -39,11 +39,11 @@ const Mlogin = () => {
   };
 
   return (
-    <div className="registerlog">
+    <div className="registerlog1">
       <Layout title="Register - Hesh App">
-        <div className="form-container ">
+        <div className="form-container1 ">
           <form onSubmit={handleSubmit}>
-            <h4 className="title">LOGIN FORM</h4>
+            <h4 className="title">CUSTOMER MANAGER<br/>LOGIN FORM</h4>
 
             <div className="mb-3">
               <input
@@ -82,18 +82,8 @@ const Mlogin = () => {
             <button type="submit" className="btn btn-primary">
               LOGIN
             </button>
-            <br />
-            <br />
-            <p>OR Sign up with</p>
-            <br />
-            <br />
-            <a href="https://www.google.com">
-              {/* Google logo or icon here */}
-              <img
-                src="/images/googlelogo_clr_74x24px.svg"
-                alt="Google Logo"
-              />
-            </a>
+           
+            
           </form>
 
         
