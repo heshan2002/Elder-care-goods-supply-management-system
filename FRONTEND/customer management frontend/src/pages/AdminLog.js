@@ -11,9 +11,9 @@ const Pagenotfound = () => {
  
        {/* Buttons in the first row */}
        <div className="button-container2">
-         <button>CUSTOMER MANAGER</button>
-         <button>ORDER PROCESSING MANAGER</button>
-         <button>INVENTORY MANAGER</button>
+       <Link to="/Mlogin"><button>CUSTOMER MANAGER</button></Link>
+       <button>ORDER PROCESSING MANAGER</button>
+       <button>INVENTORY MANAGER</button>
        </div>
  
          {/* Buttons in the second row */}
