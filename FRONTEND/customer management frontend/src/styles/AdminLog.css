@@ -1,9 +1,13 @@
-.Home {
+.AdminLog {
     background-image: url('../MICROS1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; /* Keeps the background fixed even when scrolling */
     height: 120vh;
+  }
+  .htitle{
+    color: white;
+    margin-top: 20px;
   }
   

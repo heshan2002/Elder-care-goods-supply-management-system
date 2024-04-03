@@ -4,7 +4,7 @@ import Layout from "../components/Layout/Layout";
 import "../styles/AdminLog.css";
 const Pagenotfound = () => {
   return (
-    <div className="Home">
+    <div className="AdminLog">
      <Layout title={"Best offers "}>
       
        <h1 className="htitle">ADMIN LOGIN</h1>
