@@ -122,12 +122,12 @@ background-size: cover; /* Adjust as needed */
 
 .form-container1 form {
   border-radius: 15px;
-  background-color:#ffffff10;
+  background-color:#ffffff14;
   padding: 100px;
   padding-left: 80px;
   padding-right: 80px;
   border-style: solid;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(255, 255, 255);
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -135,7 +135,8 @@ background-size: cover; /* Adjust as needed */
 .form-container1 form .title {
   color: #ffffff;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+  margin-top: -40px;
   font-weight: bold;
   font-family: Tahoma, sans-serif;
 }
@@ -151,24 +152,25 @@ background-size: cover; /* Adjust as needed */
   text-decoration: none;
   outline: none;
   color: #000000;
-  background-color: white;
+  background-color: rgb(253, 253, 253);
   border: 2px solid #555555;
   border-radius: 15px;
   box-shadow: 0 9px #00000033;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  
+  margin-top: 10px;
+  margin-bottom: 0px;
   width:250px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
 }
 
 .form-container1 form button:hover {
-  background-color: #555555;
+  background-color:  #0f40e0;
   color: white;
   
   background: linear-gradient(
     to right,
-    #434343,
+    #0f40e0,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
