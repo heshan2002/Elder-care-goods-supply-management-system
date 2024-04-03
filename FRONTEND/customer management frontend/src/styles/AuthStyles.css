@@ -2,35 +2,34 @@
 ========= register page  */
 
 .registerlog{
-  background-image: url('../stowell-banner-5-1536x1006.webp');
+  background-image: url('../banner-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed even when scrolling */
+  height: 120vh;
 }
 .registerlog1 {
-  background-image: url('../MICROS1.webp');
-  background-size: cover; /* Cover the entire background */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-position: center; /* Center the image within the element */
-  height: 100vh; /* Set the height to fill the viewport height */
 }
 
 
 .form-container {
+  margin-left: 100px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: flex-start; /* Align items to the start */
   min-height: 70vh;
   flex-direction: column;
-background-size: cover; /* Adjust as needed */
+  background-size: cover; /* Adjust as needed */
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0; 
-  padding: 0;
-
-  
 }
+
+
 
 .form-container form {
   border-radius: 15px;
-  background-color:#ffffff42;
+  background-color:#ffffff25;
   padding: 100px;
   padding-left: 80px;
   padding-right: 80px;
@@ -41,6 +40,7 @@ background-size: cover; /* Adjust as needed */
 }
 
 .form-container form .title {
+  color: white;
   text-align: center;
   margin-bottom: 25px;
   font-weight: bold;
@@ -75,7 +75,7 @@ background-size: cover; /* Adjust as needed */
   
   background: linear-gradient(
     to right,
-    #434343,
+    #4557ff,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

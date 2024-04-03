@@ -1,5 +1,16 @@
 /* AuthStyles.css */
 
+.Home{
+  background-image: url('../banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed even when scrolling */
+  height: 120vh;
+}
+
+
+
 .button-container1 {
     display: flex;
     justify-content: center;
@@ -28,8 +39,8 @@
 
   .htitle{
     font-weight: 900;
-    text-align: center;
-    color: black;
+    text-align: start;
+    color: rgb(255, 255, 255);
   }
 
 
