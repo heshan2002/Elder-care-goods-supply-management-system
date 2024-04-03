@@ -29,12 +29,12 @@
 
 .form-container form {
   border-radius: 15px;
-  background-color:#ffffff25;
+  background-color:#0000002f;
   padding: 100px;
   padding-left: 80px;
   padding-right: 80px;
   border-style: solid;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(49, 83, 255);
   margin-top: 10px;
   margin-bottom: 10px;
 }
