@@ -7,7 +7,7 @@ const Pagenotfound = () => {
     <div className="AdminLog">
      <Layout title={"Best offers "}>
       
-       <h1 className="htitle">ADMIN LOGIN</h1>
+       <h1 className="htitle1">ADMIN LOGIN</h1>
  
        {/* Buttons in the first row */}
        <div className="button-container2">
