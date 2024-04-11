@@ -13,7 +13,7 @@ const HomePage = () => {
 
         {/* Buttons in the first row */}
         <div className="button-container1">
-          <button>PRODUCTS</button>
+          <a href="http://localhost:3000/"><button>PRODUCTS</button></a>
           <button>CART</button>
           <button>DONATIONS</button>
         </div>
