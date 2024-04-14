@@ -17,7 +17,7 @@ const Navbar = () =>{
                 <p>ForeverCaring Corner</p>
             </div>
             <ul className = "nav-menu">
-                <li onClick={()=>{setMenu("Shop")}}><Link style={{ textDecoration: 'none' }} to='/'>Shop</Link>{menu==="Shop"?<hr/>:<></>}</li>
+                <li onClick={()=>{setMenu("Shop")}}><Link style={{ textDecoration: 'none' }} to='/Shop'>Shop</Link>{menu==="Shop"?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenu("Mobility Items")}}><Link style={{ textDecoration: 'none' }} to='/mobilityItems'>Mobility Items</Link>{menu==="Mobility Items"?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenu("Mesurement Machines")}}><Link style={{ textDecoration: 'none' }} to='/mesurementMachines'>Mesurement Machines</Link>{menu==="Mesurement Machines"?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenu("Dry Food")}}><Link style={{ textDecoration: 'none' }} to='/dryFoods'>Dry Food</Link>{menu==="Dry Food"?<hr/>:<></>}</li>
