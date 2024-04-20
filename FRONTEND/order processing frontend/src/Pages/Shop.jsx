@@ -1,3 +1,4 @@
+import React from "react"
 import Hero from "../Component/Hero/Hero"
 import NewCollections from "../Component/NewCollections/NewCollections"
 import Offers from "../Component/Offers/Offers"
@@ -12,6 +13,11 @@ const Shop = () => {
             <NewCollections/>
         </div>
     )
+
+    
+
 }
+
+
 
 export default Shop

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import Layout from "./../components/Layout/Layout";
 import { useAuth } from "../context/auth";
 import "../styles/Home.css";
@@ -13,7 +14,7 @@ const HomePage = () => {
 
         {/* Buttons in the first row */}
         <div className="button-container1">
-          <button>PRODUCTS</button>
+          <Link to=""><button>PRODUCTS</button></Link>
           <button>CART</button>
           <button>DONATIONS</button>
         </div>

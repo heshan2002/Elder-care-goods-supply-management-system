@@ -28,7 +28,7 @@ const Mlogin = () => {
           token: res.data.token,
         });
         localStorage.setItem("auth", JSON.stringify(res.data));
-        navigate(location.state || "/");
+        navigate(location.state || "/dashboard/admin/create-category");
       } else {
         toast.error(res.data.message);
       }

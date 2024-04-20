@@ -80,14 +80,23 @@ const Header = () => {
                           Dashboard
                         </NavLink>
                       </li>
-                      <li>
+                      <li> {auth?.user?.role === 1 ? (
                         <NavLink
-                          onClick={handleLogout}
-                          to="/login"
-                          className="dropdown-item"
-                        >
-                          Logout
+                        onClick={handleLogout}
+                        to="/category"
+                        className="dropdown-item"
+                      >
+                        Logout
+                      </NavLink>
+                    ) : (
+                      <NavLink
+                        onClick={handleLogout}
+                        to="/login"
+                        className="dropdown-item"
+                      >
+                        Logout
                         </NavLink>
+                        )}
                       </li>
                     </ul>
                   </li>
