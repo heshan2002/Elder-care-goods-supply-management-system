@@ -10,6 +10,8 @@ import mobilityItems_banner from './Component/Assets/banner_mobilityItems.png';
 import mesurementMachines_banner from './Component/Assets/banner_mesurementMachines.png';
 import dryFoods_banner from './Component/Assets/banner_dryFoods.png';
 
+
+
 function App() {
   return (
     <div>
@@ -27,7 +29,7 @@ function App() {
         </Route>
 
         <Route path='/Cart' element={<Cart/>}/>
-        <Route path='/login' element={<LoginSignup/>}/>
+        <Route path="/login" component={<LoginSignup/>} />
 
       </Routes>
       </BrowserRouter>
