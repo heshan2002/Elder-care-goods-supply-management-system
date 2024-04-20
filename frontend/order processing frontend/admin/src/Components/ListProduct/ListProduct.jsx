@@ -29,8 +29,23 @@ const ListProduct = () =>{
         await fetchInfo();
     }
 
+    const searchHandle = async (event)=>{
+        let key = event.target.value;
+        if(key){
+            let result = await fetch(`http://localhost:4000/search/${key}`);
+            result= await result.json();
+            if(result){
+                setAllProducts(result)
+            }
+        }else{
+            fetchInfo()
+        }
+
+    }
+
     return(
         <div className="list-product">
+            <input type="text" placeholder='Search' onChange={searchHandle} />
             <h1>All Product List</h1>
             <div className="listproduct-format-main">
                 <p>Products</p>
@@ -43,7 +58,8 @@ const ListProduct = () =>{
             </div>
             <div className="listproduct-allproducts">
                 <hr />
-                {allproducts.map((product,index)=>{
+                {
+                allproducts.length>0 ? allproducts.map((product,index)=>{
                     return <>
                     <div key={index} className="listproduct-format-main listproduct-format">
                         <img src={product.image} alt="" className="listproduct-product-icon" />
@@ -56,7 +72,9 @@ const ListProduct = () =>{
                     </div>
                     <hr/>
                     </>
-                })}
+                })
+                :<h1>No Result Found</h1>
+                }
             </div>
         </div>
     )

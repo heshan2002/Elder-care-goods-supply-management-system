@@ -9,7 +9,18 @@
     border-radius: 6px;
     background: white;
 }
-
+.list-product input{
+    width: 400px;
+    height: 38px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 50px;
+    color: cadetblue;
+    font-size: 20px;
+    font-weight: 500;
+    background: white; 
+    padding-left: 25px;
+}
 .list-product h1{
     font-weight: 600;
     font-size: larger;

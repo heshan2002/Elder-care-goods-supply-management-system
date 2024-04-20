@@ -191,6 +191,25 @@ app.get('/allproducts',async(req,res)=>{
 
 
 
+app.get("/search/:key", async (req, res) => {
+  try {
+    const key = req.params.key;
+    const products = await Product.find({
+      $or: [
+        { name: { $regex: new RegExp(key, "i") } },
+        { category: { $regex: new RegExp(key, "i") } }
+      ]
+    });
+    res.json(products);
+  } catch (error) {
+    console.error("Error searching for products:", error);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+
+
+
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

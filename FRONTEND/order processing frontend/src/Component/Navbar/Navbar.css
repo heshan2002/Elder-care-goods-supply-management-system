@@ -1,27 +1,35 @@
 .navbar{
+
+
     display: flex;
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+
 }
 
 .nav-logo{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
 }
 
+.nav-logo img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 10px;
+}
 .nav-logo p{
     color: #2068be;
-    font-size: 38px;
+    font-size: 34px;
     font-weight: 600;
 }
 
 .nav-menu{
     display:flex;
-    align-items: center;
+    align-items: left;
     list-style: none;
-    gap: 50px;
+    gap: 20px;
     color: rgb(39, 124, 124);
     font-size: 20px;
     font-weight: 500;
@@ -48,14 +56,14 @@
 .nav-login-cart{
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 2px;
 }
 
 .nav-login-cart button{
-    width: 157px;
-    height: 58px;
+    width: 90px;
+    height: 38px;
     outline: none;
-    border: 1px solid gray;
+    border: 0px solid gray;
     border-radius: 50px;
     color: cadetblue;
     font-size: 20px;
@@ -83,8 +91,21 @@
 }
 
 .nav-login-cart img {
-    width: 80px; 
+    width: 60px; 
     height: auto;
-    margin-right: 10px;
+    margin-right: 50px;
     cursor: pointer;
+}
+
+.nav-login-cart input{
+    width: 400px;
+    height: 38px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 50px;
+    color: cadetblue;
+    font-size: 20px;
+    font-weight: 500;
+    background: white; 
+    padding-left: 25px;
 }
