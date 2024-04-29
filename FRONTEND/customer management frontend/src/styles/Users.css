@@ -102,3 +102,11 @@ h2 {
 .h1{
   color: white;
 }
+
+.search{
+  border-radius: 10px;
+  height: 40px;
+  width: 400px;
+  border: 20px;
+  text-align: center;
+}

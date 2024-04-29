@@ -257,4 +257,56 @@ export const deleteUserController = async (req, res) => {
   }
 };
 
+// Get user profile
+export const getUserProfileController = async (req, res) => {
+  try {
+    const user = await userModel.findById(req.user._id);
+    if (!user) {
+      return res.status(404).send({
+        success: false,
+        message: "User not found",
+      });
+    }
+    res.status(200).send({
+      success: true,
+      user,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).send({
+      success: false,
+      message: "Error fetching user profile",
+      error: error.message,
+    });
+  }
+};
 
+// Update user profile
+export const updateUserProfileController = async (req, res) => {
+  try {
+    const { name, email, phone, address, answer } = req.body;
+    const user = await userModel.findByIdAndUpdate(
+      req.user._id,
+      { name, email, phone, address, answer },
+      { new: true }
+    );
+    if (!user) {
+      return res.status(404).send({
+        success: false,
+        message: "User not found",
+      });
+    }
+    res.status(200).send({
+      success: true,
+      message: "User profile updated successfully",
+      user,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).send({
+      success: false,
+      message: "Error updating user profile",
+      error: error.message,
+    });
+  }
+};

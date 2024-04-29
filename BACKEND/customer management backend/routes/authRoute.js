@@ -7,11 +7,12 @@ import {
   getAllUsers,
   updateUserController,
   deleteUserController,
+  updateUserProfileController,
+  getUserProfileController,
 
 
 } from "../controllers/authController.js";
 import { isAdmin, requireSignIn } from "../middlewares/authMiddleware.js";
-
 
 
 //router object
@@ -44,9 +45,16 @@ router.get("/users", requireSignIn, isAdmin, getAllUsers);
 // Update user details route
 router.put("/users/update/:userId", requireSignIn, isAdmin, updateUserController);
 
+
+
 // Route for deleting a user
 router.delete("/users/delete/:userId", requireSignIn, isAdmin, deleteUserController);
 
+// Get user profile route (protected)
+router.get("/user/profile", requireSignIn, getUserProfileController);
+
+// Update user profile route (protected)
+router.put("/user/profile/update", requireSignIn, updateUserProfileController);
 
 
 export default router;

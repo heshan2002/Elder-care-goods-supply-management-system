@@ -11,7 +11,7 @@ const Orders = () => {
             <UserMenu />
           </div>
           <div className="col-md-9">
-            <h1>All Orders</h1>
+            <h1>Offers</h1>
           </div>
         </div>
       </div>
