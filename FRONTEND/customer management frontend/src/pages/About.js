@@ -14,12 +14,7 @@ const About = () => {
         </div>
         <div className="col-md-4">
           <p className="text-justify mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            officiis obcaecati esse tempore unde ratione, eveniet mollitia,
-            perferendis eius temporibus dicta blanditiis doloremque explicabo
-            quasi sunt vero optio cum aperiam vel consectetur! Laborum enim
-            accusantium atque, excepturi sapiente amet! Tenetur ducimus aut
-            commodi illum quidem neque tempora nam.
+          "Welcome to Forever Caring Corner, where we're dedicated to providing innovative solutions for elder care. At Forever Caring Corner, we understand the importance of ensuring the health, safety, and comfort of our senior community. That's why we've developed a user-friendly app that streamlines access to essential care resources. With a team passionate about elder well-being, we're committed to making every interaction with our app seamless and empowering. Join us on our journey to redefine elder care, one thoughtful feature at a time."
           </p>
         </div>
       </div>
