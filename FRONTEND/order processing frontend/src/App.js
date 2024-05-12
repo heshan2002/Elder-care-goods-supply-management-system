@@ -9,6 +9,10 @@ import LoginSignup from './Pages/LoginSignup';
 import mobilityItems_banner from './Component/Assets/banner_mobilityItems.png';
 import mesurementMachines_banner from './Component/Assets/banner_mesurementMachines.png';
 import dryFoods_banner from './Component/Assets/banner_dryFoods.png';
+import PlaceOrder from './Component/PlaceOrder/PlaceOrder';
+import CreatePayment from './Component/CardDetails/CreatePayment';
+import Success from './Component/Success/Success';
+import Footer from './Component/Footer/Footer';
 
 
 
@@ -19,7 +23,7 @@ function App() {
       
       <Navbar/>
       <Routes>
-        <Route path='/Shop' element={<Shop/>}/>
+        <Route path='/' element={<Shop/>}/>
         <Route path='/mobilityItems' element={<ShopCategory banner={mobilityItems_banner} category="Mobility items"/>}/>
         <Route path='/mesurementMachines' element={<ShopCategory banner={mesurementMachines_banner} category="Measurement Machines"/>}/>
         <Route path='/dryFoods' element={<ShopCategory banner={dryFoods_banner} category="Dry food"/>}/>
@@ -31,9 +35,14 @@ function App() {
 
 
         <Route path='/Cart' element={<Cart/>}/>
-        <Route path="/login" component={<LoginSignup/>} />
+        <Route path="/login" element={<LoginSignup/>} />
+
+        <Route path='/order' element={<PlaceOrder/>}/>
+        <Route path='/createPayment' element={<CreatePayment/>}/>
+        <Route path='/success' element={<Success/>}/>
 
       </Routes>
+      <Footer/>
       </BrowserRouter>
     </div>
   );
