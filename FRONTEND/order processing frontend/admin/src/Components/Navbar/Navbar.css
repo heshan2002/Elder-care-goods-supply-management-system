@@ -5,11 +5,13 @@
     padding: 15px 60px;
     box-shadow: 0 1px 3px -2px #000;
     margin-bottom: 1px;
-    background: white;
+    background-image: url('D:\Github\Elder-care-goods-supply-management-system\FRONTEND\order processing frontend\admin\src\assets\back.jpg');
 }
 
 .nav-logo{
-    width: 200px;
+    width: 60px; 
+    height: auto; 
+    margin-right: 10px;
 }
 
 .nav-profile{
@@ -33,3 +35,4 @@
         width: 60px;
     }
 }
+

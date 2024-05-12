@@ -1,3 +1,33 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px; 
+    margin: 0 auto; 
+}
+
+.search-container input[type="text"] {
+    flex: 1; 
+    margin-right: 5px; 
+}
+
+.search-container button {
+    padding: 8px 16px; 
+    background-color: #3160a7; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #2989c9; 
+}
+
+.search-container button:focus {
+    outline: none; 
+}
+
 .list-product{
     display: flex;
     flex-direction: column;

@@ -1,13 +1,20 @@
-import React from "react";
+import React from 'react';
 import './ProductDisplay.css'
 import star_icon from '../Assets/star_icon.png'
 import star_dull_icon from '../Assets/star_dull_icon.png'
 import { useContext } from "react";
 import { ShopContext } from "../../Context/ShopContext";
+import add from '../Assets/add.png';
+import add2 from '../Assets/add2.png';
+import minus from '../Assets/minus.png';
+import { useNavigate } from 'react-router-dom';
 
 const ProductDisplay = (props) => {
     const {Products} = props;
-    const {addToCart} = useContext(ShopContext);
+    const {addToCart,removeFromCart,cartItems} = useContext(ShopContext);
+
+    const navigate = useNavigate();
+
     return(
         <div className="productdisplay">
             <div className="productdisplay-left">
@@ -36,23 +43,27 @@ const ProductDisplay = (props) => {
                     <div className="productdisplay-right-price-new">${Products.new_price}</div>
                 </div>
                 <div className="productdisplay-right-description">
-                Ensure that you have both ShopContext and useParams imported at the top of your 
-                Products.jsx file, and the errors should be resolved. Make sure the paths in the 
-                import statements are correct based on your project structure
+                Elevate your shopping experience with our carefully crafted descriptions that 
+                showcase the unique qualities of each product. 
+                
                 </div>
-                <div className="productdisplay-right-size">
-                    <h1>Select Size</h1>
-                    <div className="productdisplay-right-sizes">
-                        <div>S</div>
-                        <div>M</div>
-                        <div>L</div>
-                        <div>XL</div>
-                        <div>XXL</div>
-                    </div>
+                <div className="productdisplay-right-quantity">
+                    <h1>Add Quantity</h1>
+                    {!cartItems[Products.id]
+                        ?<img src={add} alt="" className="addcart" onClick={()=>addToCart(Products.id)}/>
+                        :<div className='item-counter'>
+                            <img onClick={()=>removeFromCart(Products.id)} src={minus} alt="" />
+                            <p>{cartItems[Products.id]} </p>
+                            <img onClick={()=>addToCart(Products.id)} src={add2} alt="" />
+                        </div>
+                    
+                    }
 
                 </div>
-                <button onClick={()=>{addToCart(Products.id)}}>ADD TO CART</button>
-                <p className="productdisplay-right-category"><span>Category :</span>Dry food, elder</p>
+                <button onClick={()=>navigate('/Cart')}>
+                    ADD TO CART
+                </button>
+
                 <p className="productdisplay-right-category"><span>Tags :</span>Modern, Latest</p>
             </div>
         </div>
