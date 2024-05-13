@@ -37,10 +37,26 @@ const GenerateReport = () => {
             <div ref={ComponentsRef}>
                 <div className="report-header">
                     <h2>Forever Caring Corner</h2>
-                    <p>Date: {currentDate}</p>
-                    <p>Time: {currentTime}</p>
-                    <p>Title: Report of products in product catelog</p>
-                    <p>Manager: Wicramasinghe D A T N</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Date:</td>
+                                <td>{currentDate}</td>
+                            </tr>
+                            <tr>
+                                <td>Time:</td>
+                                <td>{currentTime}</td>
+                            </tr>
+                            <tr>
+                                <td>Title:</td>
+                                <td>Report of products in product catalog</td>
+                            </tr>
+                            <tr>
+                                <td>Manager:</td>
+                                <td>Wicramasinghe D A T N</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div className="hr">
                 <hr />
