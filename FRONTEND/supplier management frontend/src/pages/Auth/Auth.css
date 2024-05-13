@@ -1,0 +1,66 @@
+.disbox {
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+  justify-content: center;
+  padding: 0 20%;
+}
+
+.boxone {
+  flex: 1;
+}
+.boctw {
+  flex: 1;
+ 
+}
+.logbk {
+  width: 100%;
+}
+.diboxne{
+    border-radius: 8px;
+    border: 2px solid #003567;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+}
+.lble_log{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.input_log{
+    border: 1px solid #003567;
+    width: 94%;
+    margin: 10px 0;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 17px;
+}
+.log_btn{
+    color: white;
+    cursor: pointer;
+    border: 2px solid #003567;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: #003567;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+.gin{
+    text-align: center;font-weight: bold;
+    color: rgb(59, 56, 56);
+    margin-top: 25px;
+}
+.gin1{
+    color: #003567;
+    cursor: pointer;
+}
+.bkimg_add{
+  background-image: url(./img/bk.jpeg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
