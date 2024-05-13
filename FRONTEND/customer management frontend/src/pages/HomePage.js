@@ -16,7 +16,7 @@ const HomePage = () => {
         <div className="button-container1">
           <Link to="http://localhost:3001/Shop"><button>PRODUCTS</button></Link>
           <button>CART</button>
-          <button>DONATIONS</button>
+          <Link to="http://localhost:3001/DonorDashboard"><button>DONATIONS</button></Link>
         </div>
 
         {/* Buttons in the second row */}
