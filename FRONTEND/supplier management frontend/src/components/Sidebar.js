@@ -1,19 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import {
+    FaCommentAlt,
     FaPen,
     FaReceipt,
-    FaUserAlt,
-    FaSignOutAlt 
+    FaUserAlt, 
 } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 import logoImage from './logo.jpg';
 
 const Sidebar = ({ children }) => {
     const [isOpen, setIsOpen] = useState(false);
-    const [sidebarHeight, setSidebarHeight] = useState("100%");
+    const [sidebarHeight, setSidebarHeight] = useState("100%"); 
     const toggle = () => setIsOpen(!isOpen);
     const menuItem = [
-
+        {
+            path: "/",
+            name: "Inventory Messages",
+            icon: <FaCommentAlt />
+        },
         {
             path: "/placeorder",
             name: "Place Order",
@@ -29,11 +33,6 @@ const Sidebar = ({ children }) => {
             name: "Payment Details",
             icon: <FaReceipt />
         },
-        {
-            path: "/logout", // Add logout path
-            name: "Logout", 
-            icon: <FaSignOutAlt /> 
-        }
     ];
 
     useEffect(() => {
@@ -56,9 +55,9 @@ const Sidebar = ({ children }) => {
         <div className="container">
             <div className="sidebar" style={{ height: sidebarHeight }}>
                 <div className="top_section">
-
+                    
                     <img src={logoImage} alt="Logo" className="logo" style={{ maxWidth: '100%', height: 'auto' }} />
-
+                    
                 </div>
                 {
                     menuItem.map((item, index) => (

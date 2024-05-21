@@ -13,7 +13,6 @@ const Supplierdetails = () => {
   const [selectedUser, setSelectedUser] = useState({});
   const [isEdit, setIsEdit] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
-  const [downloadDateTime, setDownloadDateTime] = useState('');
 
   useEffect(() => {
     getUsers();
@@ -95,12 +94,6 @@ const Supplierdetails = () => {
     onAfterPrint: () => alert("Suppliers' Report Successfully Printed !"),
   });
 
-  useEffect(() => {
-    const now = new Date();
-    const formattedDateTime = `${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
-    setDownloadDateTime(formattedDateTime);
-  }, []);
-
   const styles = StyleSheet.create({
     page: {
       flexDirection: 'column',
@@ -161,7 +154,6 @@ const Supplierdetails = () => {
         <View style={styles.blueStrip}>
           <Image src="./logo.jpg" style={styles.logo} /> {/* Update the path to your logo */}
           <Text style={styles.blueStripText}>Forever Caring Corner</Text>
-          <Text style={styles.dateText}>Downloaded on: {downloadDateTime}</Text>
         </View>
         <Text style={styles.header}>Suppliers' Report</Text>
         {supplierdetails.map(supplier => (
@@ -226,7 +218,7 @@ const Supplierdetails = () => {
           }}
           deleteUser={data => window.confirm('Are you sure?') && deleteUser(data)}
       />
-      <Button variant="contained" onClick={() => handlePrint(MyDocument)}>Download Report</Button>
+      <Button variant="contained" onClick={() => handlePrint(MyDocument)}>Print Report</Button>
       <PDFViewerComponent />
     </Box>
   );
